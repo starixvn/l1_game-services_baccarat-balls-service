@@ -2015,10 +2015,10 @@
   resolved "http://npm.lumigame.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@rd/numbers-game-probabilities@1.5.0-beta":
-  version "1.5.0-beta"
-  resolved "http://npm.lumigame.com/@rd/numbers-game-probabilities/-/numbers-game-probabilities-1.5.0-beta.tgz#3af4da2768851ab0421eb5f9110c47854ac68470"
-  integrity sha512-4MLGhOfCJOA8yzrXrBJYmUj85kz4CYdbycREWsNTi/oAUp0Hd/R+3Y/gdJbnD6cIqhHjfUmwIq9BRVmPknUGeQ==
+"@rd/numbers-game-probabilities@1.6.0":
+  version "1.6.0"
+  resolved "http://npm.lumigame.com/@rd/numbers-game-probabilities/-/numbers-game-probabilities-1.6.0.tgz#9546b7df6bf22cf4a3641975153cdcee2b4821cc"
+  integrity sha512-d+frxDwCJXx/qqagvgzyQz05+ILbppEBN76PBOWWwcjPFYp5B5DtQH5Tn6h77s9zQJmCotLtY/g9HHF/f2ZOBA==
   dependencies:
     mathjs "^12.2.1"
 
@@ -7036,10 +7036,10 @@ sc-game-base@5.0.0:
     socket.io-msgpack-parser "^3.0.1"
     socket.io-prom-metrics "^1.0.3"
 
-sc-game-base@5.0.1-beta.24:
-  version "5.0.1-beta.24"
-  resolved "http://npm.lumigame.com/sc-game-base/-/sc-game-base-5.0.1-beta.24.tgz#7b73eb1c8d298b87be2b6e144c39b6d7886c8e97"
-  integrity sha512-S8payLTtPifeoiTnhhrYXptPmx6zifMyHi9cft1qPVPmRoRkA7RnsOl8/LmrhzbXf/S637Lc4KDmYzz5fuQwuw==
+sc-game-base@5.1.0:
+  version "5.1.0"
+  resolved "http://npm.lumigame.com/sc-game-base/-/sc-game-base-5.1.0.tgz#ffaa55cb01accc43225b26456d830b8ec105b072"
+  integrity sha512-3cPVANxx6RyOOQ8eTxe2M3Fu+AkT668wGQqfhi0eNwR/wE7ZwPMcsr4vRm3Db/isqXO3GyJdLvi4SHwLuRB3Gg==
   dependencies:
     awilix "^8.0.0"
     axios "^1.0.0"
@@ -7124,10 +7124,10 @@ sc-instrument@1.1.1-beta.2:
     opentelemetry-instrumentation-socket.io "0.34.0"
     socket.io "4.6.1"
 
-sc-number-game-base@1.0.1-beta.4:
-  version "1.0.1-beta.4"
-  resolved "http://npm.lumigame.com/sc-number-game-base/-/sc-number-game-base-1.0.1-beta.4.tgz#6e6669e357849b2a5c02ba5645ceb63982842d2a"
-  integrity sha512-7Nh0XYsAC15+xW0DLcvvj6vB05FCe6SXDdfmbFRIOH4pRe74dohbXgjluvcW/CIxzGlF3/o65cpLddJg5bagjw==
+sc-number-game-base@1.1.1:
+  version "1.1.1"
+  resolved "http://npm.lumigame.com/sc-number-game-base/-/sc-number-game-base-1.1.1.tgz#db9d4b725a8767a612bf49c1aaebe88617894a7f"
+  integrity sha512-fptjwEaS4QvDJjxJ4DvUaGfNahZrhqeeZoEOdBQ8uh9vjdLY5spBoCtAkIevGE+nIe6dw3UyZI8TT7I++h86Cg==
   dependencies:
     awilix "^8.0.0"
     chance "1.1.6"
@@ -7139,7 +7139,7 @@ sc-number-game-base@1.0.1-beta.4:
     random-js "^2.1.0"
     randomstring "^1.3.0"
     sc-common "1.8.1"
-    sc-game-base "5.0.1-beta.24"
+    sc-game-base "5.1.0"
     sc-pf-client-seed "1.0.1-beta.0"
     socket.io "^4.5.4"
     socket.io-prom-metrics "^1.0.3"

@@ -25,12 +25,12 @@
         "indent": 4
     },
     "dependencies": {
-        "@rd/numbers-game-probabilities": "1.5.0-beta",
+        "@rd/numbers-game-probabilities": "1.6.0",
         "awilix": "^8.0.0",
         "extensionless": "^1.9.6",
         "mongoose": "^5.9.25",
-        "sc-game-base": "5.0.1-beta.24",
-        "sc-number-game-base": "1.0.1-beta.4"
+        "sc-game-base": "5.1.0",
+        "sc-number-game-base": "1.1.1"
     },
     "devDependencies": {
         "@babel/preset-env": "^7.23.9",
