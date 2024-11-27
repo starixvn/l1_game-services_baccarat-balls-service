@@ -2,8 +2,8 @@ export default {
     hostingPort: 5000,
     apiSettings: {
         enabledApi: true,
-        apiUrl: "http://gn-game-api-local-service:5000",
-        authUrl: "http://gn-auth-api-local-service:5000",
+        apiUrl: "http://gn-game-api-local1-service:5000",
+        authUrl: "http://gn-auth-api-local1-service:5000",
         client: {
             id: "game-server",
             secret: "gameserver@20luminet&",
@@ -32,11 +32,11 @@ export default {
     },
     sentry: {
         sentryUrl: "https://81e47b9ef0c34ab08c30a8612d9a348e@sentry.lumigame.com/85",
-        logIdentifier: "BaccaratBall",
-        env: "LOCAL",
+        logIdentifier: "BaccaratBall 1",
+        env: "LOCAL_1",
     },
     authenticateSettings: {
-        url: "http://gn-auth-api-local-service:5000",
+        url: "http://gn-auth-api-local1-service:5000",
         id: "game-services",
         secret: "gameservices@20luminet&",
         requestTimeout: 10000,
@@ -44,7 +44,7 @@ export default {
         audiences: ["api", "admin-api"],
     },
     userServiceSettings: {
-        url: "http://gn-user-service-local-service:5000",
+        url: "http://gn-user-service-local1-service:5000",
     },
     adminSecretKey: "asWDEerfOIdgsdqRTFabvmgh",
     metrics: {
@@ -53,7 +53,7 @@ export default {
     },
     enableMsgpackParser: false,
     gameManagementApiSettings: {
-        BASE: "http://gn-game-management-service-local-service:5000",
+        BASE: "http://gn-game-management-service-local1-service:5000",
     },
     disableCors: true,
 };
