@@ -22,7 +22,7 @@ export default {
     },
     enabledLogs: true,
     database: {
-        url: "mongodb://lmn_backend:Q74~T0vK6%25gMO%3AII%60L%5DMxc%2CR%5E%28IhxpAt@10.99.99.53:39410,10.99.99.54:39410,10.99.99.188:39410,10.99.99.187:39410/?replicaSet=SN-Main&appName=BaccaratBall1",
+        url: "mongodb://hotdog_backend:%3FD%60XWko0ZI99Y2PQ%5Eu%2E9LV%2BYv%2Emj6rhH@10.99.99.53:39510,10.99.99.54:39510,10.99.99.188:39510,10.99.99.187:39510/?replicaSet=SP-Main&appName=BaccaratBall1",
         options: {
             dbName: "hotdog_minigame",
             useNewUrlParser: true,
@@ -31,7 +31,7 @@ export default {
         },
     },
     sentry: {
-        sentryUrl: "http://f457113be82441879a991096fce8c26c@10.2.189.50:9009/172",
+        sentryUrl: "https://f4980024f65945179a125e7ce17286d0@sentry.sabagame.com/178",
         logIdentifier: "BaccaratBall2",
         env: "prod",
     },
