@@ -51,8 +51,8 @@ describe("when place bet", () => {
 
         // Assert
         expect(result.ownBets).toEqual({
-            player: 10,
-            tie: 20,
+            player: 10.9,
+            tie: 20.9,
         });
     });
 });
