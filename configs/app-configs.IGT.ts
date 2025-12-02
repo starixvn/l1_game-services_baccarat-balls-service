@@ -29,7 +29,6 @@ export default {
             dbName: "game-service-test-db",
             useNewUrlParser: true,
             useUnifiedTopology: true,
-            auto_reconnect: true,
         },
     },
     sentry: {
