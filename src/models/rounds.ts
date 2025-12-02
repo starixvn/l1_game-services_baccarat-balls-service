@@ -6,6 +6,7 @@ export type DrawResult = {
     drawId: number;
     player: number;
     banker: number;
+    time?: Date;
 };
 const resultSchema = new mongoose.Schema<DrawResult>(
     {

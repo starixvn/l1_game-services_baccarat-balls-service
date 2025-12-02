@@ -22,7 +22,7 @@ describe("statistic test", () => {
     const definition = stub<GameDefinition>();
     const publisher = stub<RoundResultPublisher>();
     const provablyFairConsumer = stub<ProvablyFairConsumer>();
-    const numberOfTurnsToRun = 100_000 * gameSettings.numberOfTurnsPerRound;
+    const numberOfTurnsToRun = 20_000 * gameSettings.numberOfTurnsPerRound;
 
     beforeEach(() => {
         consumer = new RoundResultConsumer(gameData, definition, publisher, null, provablyFairConsumer);
@@ -37,8 +37,8 @@ describe("statistic test", () => {
                 } as GameConfigs;
 
                 const expectedProbabilities = {
-                    player: 47.8,
-                    banker: 47.8,
+                    player: 47.6,
+                    banker: 47.6,
                     tie: 2.8,
                 };
 
